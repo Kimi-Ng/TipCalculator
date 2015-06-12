@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TipCalculatorViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //The most backgound, without any view
+    self.window.backgroundColor = [UIColor redColor];
+    [self.window makeKeyAndVisible];
+    TipCalculatorViewController *tipCalculatorVC = [[TipCalculatorViewController alloc] init];
+    
+//    UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:tipCalculatorVC];
+
+//    self.window.rootViewController = tipCalculatorVC;
+    
+    //window -> navigation controller -> calculator controller
+//    self.window.rootViewController = naviVC;
+    self.window.rootViewController = tipCalculatorVC;
     return YES;
 }
 

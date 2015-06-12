@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dollarSign</key>
+	<dict>
+		<key>LKR</key>
+		<string>ரூ</string>
+		<key>MYR</key>
+		<string>RM</string>
+		<key>THB</key>
+		<string>฿</string>
+		<key>JPY</key>
+		<string>¥</string>
+		<key>MOP</key>
+		<string>P</string>
+		<key>HKD</key>
+		<string>$</string>
+		<key>CNY</key>
+		<string>¥</string>
+		<key>TWD</key>
+		<string>NT$</string>
+		<key>KRW</key>
+		<string>₩</string>
+		<key>EN</key>
+		<string>L</string>
+		<key>DEFAULT</key>
+		<string>$</string>
+	</dict>
+	<key>TestKey</key>
+	<string>TestValue</string>
+</dict>
+</plist>

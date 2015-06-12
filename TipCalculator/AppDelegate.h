@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TipCalculatorViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+//    TipCalculatorViewController *tipCalculator;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
+//@property (strong, nonatomic) TipCalculatorViewController *tipCalculator;
 
 @end
 
